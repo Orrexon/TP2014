@@ -1,0 +1,20 @@
+﻿Build started 2014-03-17 18:42:09.
+     1>Project "C:\git\Concave shape bug\Concave shape bug\Concave shape bug.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../deps/Chipmunk/include /I"../deps/SFML-2.1/include" /I../deps/Thor/include /I../deps/Aurora /I../deps/Box2D /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(94): warning C4305: 'argument' : truncation from 'double' to 'float32'
+     1>main.cpp(143): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(144): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(152): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(153): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\git\Concave shape bug\Release\Concave shape bug.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../deps/Chipmunk/lib/Release /LIBPATH:../deps/Thor/lib /LIBPATH:"..\deps\SFML-2.1\lib\\" /LIBPATH:../deps/Box2D/lib/Release "sfml-window.lib" "sfml-graphics.lib" "sfml-network.lib" "sfml-audio.lib" "sfml-system.lib" thor.lib chipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Box2D.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\git\Concave shape bug\Release\Concave shape bug.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\git\Concave shape bug\Release\Concave shape bug.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         Concave shape bug.vcxproj -> C:\git\Concave shape bug\Release\Concave shape bug.exe
+     1>Done Building Project "C:\git\Concave shape bug\Concave shape bug\Concave shape bug.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.91
